@@ -84,6 +84,8 @@
 				  	
 				    <li><a href="/categories/Baccarat-Site/" class="animsition-link">Baccarat Site<small>(1)</small></a></li>
 				    
+				    <li><a href="/categories/Betting/" class="animsition-link">Betting<small>(1)</small></a></li>
+				    
 				    <li><a href="/categories/Blackjack/" class="animsition-link">Blackjack<small>(1)</small></a></li>
 				    
 				    <li><a href="/categories/Casino-Gta-5/" class="animsition-link">Casino Gta 5<small>(4)</small></a></li>
@@ -355,6 +357,28 @@
 
 
 <link rel="stylesheet" href="/fancybox/jquery.fancybox.css" media="screen" type="text/css">
+<script src="/fancybox/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+$('#intro').find('img').each(function(){
+  var alt = this.alt;
+
+  if (alt){
+    $(this).after('<span class="caption" style="display:none">' + alt + '</span>');
+  }
+
+  $(this).wrap('<a href="' + this.src + '" title="' + alt + '" class="fancybox" rel="gallery" />');
+});
+(function($){
+  $('.fancybox').fancybox();
+})(jQuery);
+</script>
+
+
+
+      
+</body>
+</html>
+" href="/fancybox/jquery.fancybox.css" media="screen" type="text/css">
 <script src="/fancybox/jquery.fancybox.pack.js"></script>
 <script type="text/javascript">
 $('#intro').find('img').each(function(){
